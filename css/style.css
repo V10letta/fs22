@@ -114,30 +114,58 @@ font-size: 30px;
 
 .send_form {
     clear: both;
-    height: 290px;
+    height: 200px;
     width: 100% ;
     background-color: #f0f0f0;
+    padding-top:50px;
+    margin-bottom: 95px;
 }
 
 form {
     
     width: 400px;
+    height: 45px;
     margin: auto;
     border-bottom: 1px solid #000000;
     margin-bottom: 50px;
 }
 
 input {
-   width: 200px;
-   height: 42px;
-   border: 0px;
+   width: 350px;
+   height: 40px;
+   
    border-radius: 5px;
    outline: none;
    background-color: #f0f0f0;
-   
-   
-   
- }
+
+   border: none; /* Убираем рамку */
+    outline: none; /* Убираем свечение в Chrome и Safari */
+    -webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
+  
+    vertical-align: middle; /* Выравнивание по середине */
+    padding-left: 18px;
+    }
+
+/* button {
+        background-image: url('../img/arrow.png');
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: 360px center ;
+        padding-left: 18px;
+        cursor: pointer;
+        border: none;
+    } */
+
+    button {
+        width: 40px; /* Ширина кнопки */
+        height: 30px; /* Высота кнопки */
+        border: none; /* Убираем рамку */
+        background: url('../img/arrow.png') no-repeat 50% 50%; /* Параметры фона */
+        cursor: pointer;
+        background-attachment: scroll;
+        margin-bottom: 0;
+        vertical-align: middle;
+       }
 
  /* button {
   
@@ -151,10 +179,106 @@ input {
    cursor: pointer;
  } */
 
- button:before {
+ /* button:before {
    content: "\f002";
    font-family: FontAwesome;
    font-size: 16px;
    color: #F9F0DA;
- }
+ } */
 
+.send_form h2{
+    text-align:center;
+    margin-bottom: 50px;
+}
+
+.c {
+   
+    display: inline-block;
+   
+   
+    margin-left: 370px;
+    margin-bottom:500px;
+    margin-top:100px;
+    
+   
+  }
+
+.c a{
+    text-decoration: none; /* Убираем подчёркивание */
+    color: #000; /* Цвет текста */
+    text-align: center;
+    padding: 15px 25px; /* Поля */
+    border: 1px solid #333; /* Рамка */
+  }
+  
+.c a:hover {
+    
+
+    border: 1px solid #333; /* Рамка */
+   
+    padding: 20px 30px; /* Поля */
+    text-decoration: none; /* Убираем подчёркивание */
+    color: #000; /* Цвет текста */
+
+    
+    text-align: center;
+  }
+
+
+  
+  nav li a:hover {
+    
+
+    
+    
+    font-size:18px;
+    text-decoration: none; /* Убираем подчёркивание */
+    color: #000; /* Цвет текста */
+
+    
+    text-align: center;
+  }
+
+footer {
+clear: both;
+
+    height: 100px;
+    width: 100% ;
+    background-color: #f0f0f0;
+
+
+}
+
+.footerleft{
+    float: left;
+    line-height: 95px;
+    
+
+}
+
+.follow {
+    /* clear: both; */
+    float: right;
+
+    
+}
+
+.follow p {
+    float: right;
+    margin-right: 20px;
+    line-height: 95px;
+    
+   
+}
+.follow p a img {
+    height: 15px;
+    width: 15px;
+    opacity: 0.5;
+    
+    
+}
+
+.footer {
+    width: 900px;
+margin: auto;
+}
